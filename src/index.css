@@ -1,0 +1,5 @@
+@import 'tailwindcss';
+
+@config "../tailwind.config.ts";
+@plugin "@nova-design-system/nova-base/theme/plugin";
+@custom-variant dark (&:where(.dark, .dark *));
